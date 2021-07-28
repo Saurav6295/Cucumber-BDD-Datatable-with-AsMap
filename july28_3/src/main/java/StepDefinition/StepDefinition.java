@@ -26,7 +26,7 @@ public class StepDefinition {
 
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Program Files\\Google\\Chrome\\Application\\chrome driver\\chromedriver.exe");
-		// ooper waaale line me driver object ko assigned hua chrome driver ka path
+		
 		driver = new ChromeDriver(options);// driver looks for chrome through options opject
 
 		driver.get("https://www.flipkart.com/");// chrome driver instance
